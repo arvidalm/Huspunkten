@@ -107,7 +107,7 @@ margin-left: 2vw;
 /*adjusting the link settings*/
 .navbar-links ul{
     display: flex;
-    margin-top: 2vh;
+    margin-top: 3vh;
     padding: 0;
 
 }
@@ -119,6 +119,21 @@ margin-left: 2vw;
     color: var(--white);
     padding: 1rem;
     margin: 2vw;
+}
+
+.navbar-links li:hover{
+    font-weight: 900;
+    text-decoration: underline;
+}
+/*only visivble in responsive mode, handled by javascrip*/
+.toggle-button{
+    /*the absolut means it will always be in the position that*/
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
